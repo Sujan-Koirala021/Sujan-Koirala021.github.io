@@ -1,0 +1,30 @@
+body
+{
+    background-color: black;
+}
+
+.navbar{
+    /* background-color: black; */
+    display: flex;
+    justify-content: flex-end; /* Nav Items to right*/ 
+    border-radius: 30px;
+    
+}
+
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float:left;
+    list-style: none; 
+    margin: 13px 20px;
+    
+}
+.navbar li a{
+    padding: 4px 4px;
+    text-decoration: none;
+    color: white;
+}
+.navbar li a:hover{
+    color: red
+}
