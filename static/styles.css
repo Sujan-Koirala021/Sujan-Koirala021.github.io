@@ -1,6 +1,7 @@
 body
 {
     background-color: black;
+    color: white;
 }
 
 .navbar{
@@ -28,3 +29,22 @@ body
 .navbar li a:hover{
     color: red
 }
+
+.details
+{
+    margin-left:8%;
+    margin-top : 18%;
+}
+
+.name
+{
+    color:#213e71;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+.socials{
+    padding-top: 4%;
+}
+.socials span{
+    padding: 50px 20px 50px 20px; /* top right bottom left; (moving clockwise) */
+    }
